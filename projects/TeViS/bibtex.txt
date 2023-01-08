@@ -1,0 +1,6 @@
+@InProceedings{Gu_2023_TeViS,
+  author = {Xu Gu, Yuchong Sun, Feiyue Ni, Shizhe Chen, Ruihua Song, Boyuan Li, Xiang Cao},
+  title = {Translating Text Synopses to Video Storyboards},
+  booktitle = {arXiv},
+  year = {2023}
+}
