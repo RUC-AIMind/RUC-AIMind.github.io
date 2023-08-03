@@ -1,0 +1,6 @@
+@article{lin2023tiktalk,
+  title={TikTalk: A Multi-Modal Dialogue Dataset for Real-World Chitchat},
+  author={Lin, Hongpeng and Ruan, Ludan and Xia, Wenke and Liu, Peiyu and Wen, Jingyuan and Xu, Yixin and Hu, Di and Song, Ruihua and Zhao, Wayne Xin and Jin, Qin and others},
+  journal={arXiv preprint arXiv:2301.05880},
+  year={2023}
+}
