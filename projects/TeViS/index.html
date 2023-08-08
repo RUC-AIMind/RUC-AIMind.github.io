@@ -273,7 +273,7 @@
               Moreover, the query texts in existing works are visually concrete and descriptive, 
               making the models less generalizable to more abstract and high-level text synopses such as the synopsis in Fig. 1 (c).
             </p>
-            <img class="ui fluid image" src="assets/img/dataset.jpg" width="80%" />
+            <img class="ui fluid image" src="assets/img/dataset.png" width="80%" />
           </div>
         </div>
 
@@ -346,12 +346,12 @@
           we propose a text-to-image retrieval module based on a pre-trained image-text model, 
           and an encoder-decoder module for ordering images. 
           A coherence-aware pre-training method is further proposed to leverage large-scale movies to improve coherence across frames for the ordering module. 
-          The framework of our Trans-TeViS model for the TeViS task is shown in Fig. 4.
+          The framework of our VQ-Trans model for the TeViS task is shown in the flow Figure.
         </p>
         <img class="ui fluid image" src="assets/img/model.png" width="80%" />
-        <p>In addition to the proposed Trans-TeViS model, we design three strong baselines based on CLIP for ordering as shown in Fig. 5:
+        <p>In addition to the proposed VQ-Trans model, we design three strong baselines based on CLIP for ordering as shown in Fig. C.2:
         </p>
-        <img class="ui fluid image" src="assets/img/clip_baseline.png" width="45%" />
+        <img class="ui fluid image" src="assets/img/clip_baseline.png"  width="80%" />
       </div>
     </div>
 
@@ -360,7 +360,7 @@
         <h1 class="ui header">Experimental Results</h1>
         <p>
           Qualitative examples of different models for the ordering task on our Movie-TeViS dataset.
-          The <i>kendall' &tau;</i> metrics of our approach for Ordering Task and Retrieve-and-Order Task are shown in Tab. 2 and Tab. 4. 
+          The <i>kendall' &tau;</i> metrics of our approach for Ordering Task and Retrieve-and-Order Task are shown in Tab. 2 and Tab. 5. 
           To learn more details, please refer to our <a href="https://arxiv.org/abs/2301.00135">paper</a>..
         </p>
 
