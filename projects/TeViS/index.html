@@ -294,12 +294,12 @@
               storyboard to visualize an input text synopsis. For this purpose,
               we collect the <a herf="https://ruc-aimind.github.io/projects/tevis.html">MovieNet-TeViS</a> benchmark based on
               the public <a href="https://movienet.github.io/">MovieNet</a> dataset. <br/>
-              
+              <br/>
               Our collected MovieNet-TeViS dataset consists of 10,000 pairs of a synopsis sentence in English and a video storyboard, 
               i.e., a sequence of keyframes as our final dataset.  There are 45,584 keyframes in total. 
               The number of keyframes in a storyboard ranges from 3 to 11 and about 60\% storyboards consist of 3 or 4 keyframes. 
               The average number of words in a synopsis sentence is about 24. <br/>
-              
+              <br/>
               Tab. 1 presents the comparison of our dataset and related movie datasets. 
               It shows that the duration of movie clips corresponding to a description in LSMDC and MAD is only 4 seconds 
               and the average number of words in a description is only 9-12, which is much lower than ours. 
@@ -322,11 +322,13 @@
       <div class="ui middle aligned stackable grid container">
         <h1 class="ui header">Two Evaluation Subtasks</h1>
         <p>We design two evaluation settings for the TeViS task: <br/>
+          <br/>
           1.	Ordering the Shuffled Keyframes Subtask:<br/>
           For a given text synopsis and its shuffled ground-truth images, 
           how well can the models order them? To measure the long-term reasoning capability of models for ordering, 
           we let the models order the ground-truth images and apply <i>Kendall' &tau;</i> to evaluate 
           how well the ordered list matches with the ground-truth list.<br/>
+          <br/>
           2.	Retrieve-and-Ordering Keyframes Subtask:<br/>
           For a given text synopsis, how well can the models select the relevant images from a large set of candidates 
           and then order them? This task is more practical in real situations. 
@@ -368,13 +370,13 @@
           To learn more details, please refer to our <a href="https://arxiv.org/abs/2301.00135">paper</a>..
         </p>
 
-        <img class="ui fluid image" src="assets/img/res.png" width="80%"/>
+        <img class="ui fluid image" src="assets/img/res.png" width="80%"/><br/>
 
         <br/>
         <br/>
 
-        <img class="ui fluid image" src="assets/img/task_all.png" width="80%"/>
-
+        <img class="ui fluid image" src="assets/img/task_all.png" width="80%"/><br/>
+        <br/>
         <p>
           Nevertheless, there is still a large gap compared to human performance suggesting room for promising future work.
         </p>
