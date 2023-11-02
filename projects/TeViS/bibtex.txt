@@ -1,6 +1,16 @@
 @InProceedings{Gu_2023_TeViS,
-  author = {Xu Gu, Yuchong Sun, Feiyue Ni, Shizhe Chen, Ruihua Song, Boyuan Li, Xiang Cao},
-  title = {Translating Text Synopses to Video Storyboards},
-  booktitle = {arXiv},
-  year = {2023}
+  author = {Xu Gu, Yuchong Sun, Feiyue Ni, Shizhe Chen, Xihua Wang, Ruihua Song, Boyuan Li, Xiang Cao},
+  title = {TeViS: Translating Text Synopses to Video Storyboards},
+  year = {2023},
+  isbn = {9798400701085},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3581783.3612417},
+  doi = {10.1145/3581783.3612417},
+  booktitle = {Proceedings of the 31st ACM International Conference on Multimedia},
+  pages = {4968–4979},
+  numpages = {12},
+  keywords = {movie, datasets, storyboard, synopsis},
+  location = {Ottawa ON, Canada},
+  series = {MM '23}
 }
